@@ -1,11 +1,20 @@
-# Proyek Akhir: Belajar Machine Learning untuk Pemula (BMLP) - Dicoding Indonesia
+# Dicoding - Belajar Machine Learning untuk Pemula
+
+## Penilaian Proyek
+Proyek ini berhasil mendapatkan bintang 5/5 pada submission dicoding course Belajar Machine Learning untuk Pemula.
+
+![Bukti Penilaian Bintang 5](readme/nilai.png)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![scikit-learn 1.7.x](https://img.shields.io/badge/scikit--learn-1.7.x-orange.svg)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status: Completed (Bintang 5 / Advanced)](https://img.shields.io/badge/Status-Completed%20(Bintang%205)-brightgreen.svg)](#)
 
-Repositori ini berisi implementasi lengkap proyek akhir untuk kelas **Belajar Machine Learning untuk Pemula (BMLP)** di Dicoding Indonesia. Proyek ini mengintegrasikan dua paradigma utama machine learning secara berkesinambungan (*end-to-end*):
+---
+
+## Deskripsi Project
+Project ini adalah submission untuk kelas Dicoding **Belajar Machine Learning untuk Pemula (BMLP)**. Isi project mengintegrasikan dua paradigma utama machine learning secara berkesinambungan (*end-to-end*):
+
 1. **Unsupervised Learning (Clustering)** menggunakan K-Means untuk segmentasi transaksi nasabah perbankan dan menghasilkan label kelas target.
 2. **Supervised Learning (Klasifikasi)** menggunakan Decision Tree dan Random Forest (disertai Hyperparameter Tuning) untuk memprediksi segmen nasabah berdasarkan atribut transaksi dan demografi.
 
@@ -32,6 +41,10 @@ Seluruh kriteria penilaian telah dipenuhi hingga tingkat tertinggi: **Advanced (
 Dicoding-BelajarMachineLearningUntukPemula/
 ├── README.md                                             # Dokumentasi lengkap proyek
 ├── requirements.txt                                      # Dependensi pustaka Python
+├── readme/
+│   └── nilai.png                                         # Bukti penilaian bintang 5 submission Dicoding
+├── BMLP_Muhammad-Abiya-Makruf/                           # Folder submission akhir peserta
+├── BMLP_Muhammad-Abiya-Makruf.zip                       # Arsip ZIP pengumpulan proyek ke Dicoding
 └── ai-agent/
     ├── [Clustering]_Submission_Akhir_BMLP_Your_Name.ipynb # Notebook Clustering (Terevaluasi & Ber-output)
     ├── [Klasifikasi]_Submission_Akhir_BMLP_Your_Name.ipynb# Notebook Klasifikasi (Terevaluasi & Ber-output)
