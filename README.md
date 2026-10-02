@@ -43,20 +43,16 @@ Dicoding-BelajarMachineLearningUntukPemula/
 ├── requirements.txt                                      # Dependensi pustaka Python
 ├── readme/
 │   └── nilai.png                                         # Bukti penilaian bintang 5 submission Dicoding
-├── BMLP_Muhammad-Abiya-Makruf/                           # Folder submission akhir peserta
-├── BMLP_Muhammad-Abiya-Makruf.zip                       # Arsip ZIP pengumpulan proyek ke Dicoding
-└── ai-agent/
-    ├── [Clustering]_Submission_Akhir_BMLP_Your_Name.ipynb # Notebook Clustering (Terevaluasi & Ber-output)
-    ├── [Klasifikasi]_Submission_Akhir_BMLP_Your_Name.ipynb# Notebook Klasifikasi (Terevaluasi & Ber-output)
-    ├── bank_transactions_data_edited.csv                 # Dataset transaksi perbankan
+└── BMLP_Muhammad-Abiya-Makruf/                           # Direktori submission proyek machine learning
+    ├── [Clustering]_Submission_Akhir_BMLP_Muhammad_Abiya_Makruf.ipynb   # Notebook Clustering (Terevaluasi)
+    ├── [Klasifikasi]_Submission_Akhir_BMLP_Muhammad_Abiya_Makruf.ipynb  # Notebook Klasifikasi (Terevaluasi)
     ├── data_clustering.csv                               # Data hasil clustering terstandarisasi
     ├── data_clustering_inverse.csv                       # Data hasil clustering skala asli (Advanced)
     ├── model_clustering.h5                               # Model K-Means Clustering utama
     ├── PCA_model_clustering.h5                           # Model K-Means berbasis PCA (Advanced)
     ├── decision_tree_model.h5                            # Model Decision Tree Klasifikasi
     ├── explore_RandomForest_classification.h5           # Model Random Forest Klasifikasi (Skilled)
-    ├── tuning_classification.h5                          # Model Random Forest hasil Tuning (Advanced)
-    └── instruksi_submission.md                           # Panduan submission resmi yang telah dirapikan
+    └── tuning_classification.h5                          # Model Random Forest hasil Tuning (Advanced)
 ```
 
 ---
@@ -171,13 +167,13 @@ Notebook dapat dijalankan secara interaktif menggunakan Jupyter Notebook, Jupyte
 
 1. Buka dan jalankan seluruh cell pada notebook **Clustering**:
    ```bash
-   jupyter notebook "ai-agent/[Clustering]_Submission_Akhir_BMLP_Your_Name.ipynb"
+   jupyter notebook "BMLP_Muhammad-Abiya-Makruf/[Clustering]_Submission_Akhir_BMLP_Muhammad_Abiya_Makruf.ipynb"
    ```
    *Proses ini akan menghasilkan `data_clustering.csv`, `data_clustering_inverse.csv`, `model_clustering.h5`, dan `PCA_model_clustering.h5`.*
 
 2. Buka dan jalankan seluruh cell pada notebook **Klasifikasi**:
    ```bash
-   jupyter notebook "ai-agent/[Klasifikasi]_Submission_Akhir_BMLP_Your_Name.ipynb"
+   jupyter notebook "BMLP_Muhammad-Abiya-Makruf/[Klasifikasi]_Submission_Akhir_BMLP_Muhammad_Abiya_Makruf.ipynb"
    ```
    *Proses ini membaca `data_clustering_inverse.csv` dan menghasilkan `decision_tree_model.h5`, `explore_RandomForest_classification.h5`, serta `tuning_classification.h5`.*
 
